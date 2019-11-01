@@ -3,6 +3,7 @@ pool:
   demands:
     - npm
 
+# force a build
 steps:
 - task: DotNetCoreInstaller@0
   displayName: 'Use .NET Core SDK 2.1.505'
